@@ -1,4 +1,4 @@
-# ruleset_analysis
+# Ruleset Analysis
 Analyze the ruleset and use data from different dimensions to create disjoint layers. 
 The rules stored in each layer must be disjoint in a specific dimension and overlap will not occur.
 
@@ -31,7 +31,8 @@ g++ -std=c++11 all_sublayer_disjoint_3.cpp -o all_sublayer_disjoint_3
 
 g++ -std=c++11 all_sublayer_disjointt_5.cpp -o all_sublayer_disjoint_5
 
-## Run result，output結果會在./TABLE目錄下:
+## Run result
+output結果會在./TABLE目錄下:
 
 ./all_sublayer_disjoint_5 ./TABLE/acl1_100K
 
