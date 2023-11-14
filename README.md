@@ -6,11 +6,11 @@ Analyze the ruleset and use data from different dimensions to create disjoint la
 
 all_sublayer_disjoint_5.cpp:
 
-使用5-field建立layer
+- 使用5-field建立layer
 
 all_sublayer_disjoint_3.cpp:
 
-使用srcIP+dstIP建立layer，如果有srcIP+dstIP cover range完全相同的rules，不視為overlapped，要放在同個layer。
+- 使用srcIP+dstIP建立layer，如果有srcIP+dstIP cover range完全相同的rules，不視為overlapped，要放在同個layer。
 
 all_sublayer_disjoint_edit_5.cpp:
 
