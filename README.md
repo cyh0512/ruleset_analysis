@@ -21,7 +21,7 @@ The rules stored in each layer must be disjoint in a specific dimension and over
 
 使用srcIP+dstIP建立layer，removing all the rules whose source and dst IP fields are of length <= 5，如果有srcIP+dstIP cover range完全相同的rules，不視為overlapped，要放在同個layer。
 
-## Compile in CIAL server 172:
+## Compile in CIAL server 172(or under GCC 4.7.2):
 
 g++ -std=c++11 all_sublayer_disjoint_edit_3.cpp -o all_sublayer_disjoint_edit_3
 
